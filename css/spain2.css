@@ -1,0 +1,91 @@
+.spain2{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/4.png);
+    background-size: cover;
+    background-position-x: -450px;
+    display: flex;
+    align-items: center;
+}
+
+.content5{
+    width: 80%;
+    height: fit-content;
+    padding: 25px;
+    color: white;
+    background-color: rgba(46, 42, 42, 0.801);
+}
+
+.con-spain2{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.content5 span{
+    font-size: 25px;
+}
+
+.content5 p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 18px;
+}
+
+.content5 button{
+    color: white;
+    background: linear-gradient(
+    45deg,
+    rgb(86, 142, 245),
+    rgb(86, 142, 245) 40%,
+    rgb(109, 158, 250) 40.5%,
+    rgb(109, 158, 250) 100%);
+    font-family: 'Aleo', serif;
+    font-size: 14px;
+    padding: 15px 25px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content5 button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    border: none;
+}
+
+.content5 button:focus{
+cursor: pointer;
+transform: scale(1.1);
+filter: brightness(1.2);
+border: none;
+
+}
+
+@media (min-width:800px){
+    .spain2{
+        background-position-x: 0;
+        height: 85vh;
+        justify-content: center;
+    }
+
+    .content5 button{
+        padding: 15px 30px;
+    }
+
+    .con-spain2{
+        width: 700px;
+    }
+
+    .content5{
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media (min-width:1020px){
+    .con-spain2{
+        width: 900px;
+    }
+}

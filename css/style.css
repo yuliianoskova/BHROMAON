@@ -1,0 +1,13 @@
+@import "norm.css";
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@300;700&display=swap');
+@import "home-page.css";
+@import "why-us.css";
+@import "search.css";
+@import "spain1.css";
+@import "spain2.css";
+@import "tourists.css";
+@import "contacts.css";
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}

@@ -1,0 +1,45 @@
+.search-page{
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(51, 51, 51, 0.897);
+    border: none;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search-page figure{
+    text-align: center;
+    width: 200px;
+    margin: 0;
+}
+
+.search-page img{
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.search-page figcaption{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Aleo', serif;
+}
+
+#fig1{
+    font-size: 50px;
+    color: rgb(98, 88, 231);
+    margin-bottom: 15px;
+}
+
+#fig2{
+    font-size: 50px;
+    color: rgb(231, 88, 88);
+    margin-bottom: 15px;
+}
+
+#fig3{
+    font-size: 50px;
+    color: rgb(86, 142, 245);
+    margin-bottom: 15px;
+}
